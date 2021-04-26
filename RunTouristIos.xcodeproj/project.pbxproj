@@ -16,6 +16,7 @@
 		FA824B97262D4BD500E5117E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA824B95262D4BD500E5117E /* LaunchScreen.storyboard */; };
 		FA824BA2262D4BD500E5117E /* RunTouristIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA824BA1262D4BD500E5117E /* RunTouristIosTests.swift */; };
 		FA824BAD262D4BD500E5117E /* RunTouristIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA824BAC262D4BD500E5117E /* RunTouristIosUITests.swift */; };
+		FAF3D89026328FF20037DBCC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF3D88F26328FF20037DBCC /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FA824BA8262D4BD500E5117E /* RunTouristIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTouristIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA824BAC262D4BD500E5117E /* RunTouristIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTouristIosUITests.swift; sourceTree = "<group>"; };
 		FA824BAE262D4BD500E5117E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF3D88F26328FF20037DBCC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				FA824B95262D4BD500E5117E /* LaunchScreen.storyboard */,
 				FA824B98262D4BD500E5117E /* Info.plist */,
 				FA824B90262D4BD400E5117E /* RunTouristIos.xcdatamodeld */,
+				FAF3D88F26328FF20037DBCC /* Launch Screen.storyboard */,
 			);
 			path = RunTouristIos;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			files = (
 				FA824B97262D4BD500E5117E /* LaunchScreen.storyboard in Resources */,
 				FA824B94262D4BD500E5117E /* Assets.xcassets in Resources */,
+				FAF3D89026328FF20037DBCC /* Launch Screen.storyboard in Resources */,
 				FA824B8F262D4BD400E5117E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
