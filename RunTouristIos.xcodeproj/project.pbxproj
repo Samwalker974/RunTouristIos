@@ -16,6 +16,11 @@
 		FA824B97262D4BD500E5117E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA824B95262D4BD500E5117E /* LaunchScreen.storyboard */; };
 		FA824BA2262D4BD500E5117E /* RunTouristIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA824BA1262D4BD500E5117E /* RunTouristIosTests.swift */; };
 		FA824BAD262D4BD500E5117E /* RunTouristIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA824BAC262D4BD500E5117E /* RunTouristIosUITests.swift */; };
+		FAC310EE263D2F2300241670 /* TableViewControllerN.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC310ED263D2F2300241670 /* TableViewControllerN.swift */; };
+		FAC310F0263D343B00241670 /* CheckMyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC310EF263D343B00241670 /* CheckMyItem.swift */; };
+		FAC310F3263D4BC800241670 /* TableViewControllerE.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC310F2263D4BC800241670 /* TableViewControllerE.swift */; };
+		FAC310F5263D4BD800241670 /* TableViewControllerS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC310F4263D4BD800241670 /* TableViewControllerS.swift */; };
+		FAC310F7263D4BE400241670 /* TableViewControllerO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC310F6263D4BE400241670 /* TableViewControllerO.swift */; };
 		FAF3D89026328FF20037DBCC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF3D88F26328FF20037DBCC /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +57,11 @@
 		FA824BA8262D4BD500E5117E /* RunTouristIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTouristIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA824BAC262D4BD500E5117E /* RunTouristIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTouristIosUITests.swift; sourceTree = "<group>"; };
 		FA824BAE262D4BD500E5117E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC310ED263D2F2300241670 /* TableViewControllerN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerN.swift; sourceTree = "<group>"; };
+		FAC310EF263D343B00241670 /* CheckMyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMyItem.swift; sourceTree = "<group>"; };
+		FAC310F2263D4BC800241670 /* TableViewControllerE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerE.swift; sourceTree = "<group>"; };
+		FAC310F4263D4BD800241670 /* TableViewControllerS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerS.swift; sourceTree = "<group>"; };
+		FAC310F6263D4BE400241670 /* TableViewControllerO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerO.swift; sourceTree = "<group>"; };
 		FAF3D88F26328FF20037DBCC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,9 +113,10 @@
 		FA824B86262D4BD400E5117E /* RunTouristIos */ = {
 			isa = PBXGroup;
 			children = (
+				FAC310F8263D4CA400241670 /* View */,
+				FAC310F1263D4B5300241670 /* ControllerCard */,
 				FA824B87262D4BD400E5117E /* AppDelegate.swift */,
 				FA824B89262D4BD400E5117E /* SceneDelegate.swift */,
-				FA824B8B262D4BD400E5117E /* ViewController.swift */,
 				FA824B8D262D4BD400E5117E /* Main.storyboard */,
 				FA824B93262D4BD500E5117E /* Assets.xcassets */,
 				FA824B95262D4BD500E5117E /* LaunchScreen.storyboard */,
@@ -132,6 +143,34 @@
 				FA824BAE262D4BD500E5117E /* Info.plist */,
 			);
 			path = RunTouristIosUITests;
+			sourceTree = "<group>";
+		};
+		FAC310F1263D4B5300241670 /* ControllerCard */ = {
+			isa = PBXGroup;
+			children = (
+				FAC310F9263D4CE900241670 /* Item */,
+				FAC310ED263D2F2300241670 /* TableViewControllerN.swift */,
+				FAC310F2263D4BC800241670 /* TableViewControllerE.swift */,
+				FAC310F4263D4BD800241670 /* TableViewControllerS.swift */,
+				FAC310F6263D4BE400241670 /* TableViewControllerO.swift */,
+			);
+			path = ControllerCard;
+			sourceTree = "<group>";
+		};
+		FAC310F8263D4CA400241670 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA824B8B262D4BD400E5117E /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAC310F9263D4CE900241670 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				FAC310EF263D343B00241670 /* CheckMyItem.swift */,
+			);
+			path = Item;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +307,12 @@
 				FA824B92262D4BD400E5117E /* RunTouristIos.xcdatamodeld in Sources */,
 				FA824B8C262D4BD400E5117E /* ViewController.swift in Sources */,
 				FA824B88262D4BD400E5117E /* AppDelegate.swift in Sources */,
+				FAC310F7263D4BE400241670 /* TableViewControllerO.swift in Sources */,
+				FAC310F0263D343B00241670 /* CheckMyItem.swift in Sources */,
+				FAC310EE263D2F2300241670 /* TableViewControllerN.swift in Sources */,
 				FA824B8A262D4BD400E5117E /* SceneDelegate.swift in Sources */,
+				FAC310F3263D4BC800241670 /* TableViewControllerE.swift in Sources */,
+				FAC310F5263D4BD800241670 /* TableViewControllerS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
