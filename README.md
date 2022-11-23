@@ -1,8 +1,16 @@
-# RunTouristIos
-Projet Application Ios sur les lieux a visiter a la Reunion:
+# Projet Android 
+## Création d'une Application sur les différents lieux de la Réunion à visiter
 
--Cree une liste view qui nous permettra d'afficher la liste des lieux a visiter
+Nom de L'application : RunTouristIos
 
--Cree une base de donnée pour stocker de donnée
+Plateforme : Xcode
 
--Lors d'un clique sur le lieux celui ci ouvre une fenetre avec des infos complémentaire
+Portabilité : Ios
+
+## Objectif :
+
+-Crée une ListView qui nous permettra d'afficher la liste des lieux à visiter.
+
+-Crée une base de données pour stocker de donnée. ( la base donnée sera interne au téléphone )
+
+-Crée une fenêtre de favoris ou l'utilisateur peut sauvegarder ces lieux préfères.
